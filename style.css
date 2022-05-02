@@ -1,24 +1,161 @@
 body{
     height: 100vh;
     width: 100vw;
-    font-family: ;
+    
 }
 header{
     background-image: url(images/bg-header-desktop.png);
-    box-sizing: 400px;
-
     display: flex;
     align-items: center;
    flex-direction: column;
     width: 100%;
     height: 400px;
+}
+
+#header {
+    display:flex;
+    margin-top: 250px;
+    flex-direction: column;
+}
 
  #logo-header {
-     height: 50px;
+     height: 60px;
+     width: 60px;
+     display: flex;
+     justify-items: center;
+     
+
 
  }
 
+ #conteudo-centralizado {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+     
+ }
+
  #titulo {  
+     font-size: 40px;
+     padding: 20px;
+     font-weight: bold;
+     
+     
+ }
 
+ conteudo-centralizdo p {
+     
+ }
 
+ .botoes {
+     width: 100vw;
+     padding-top: 20px;
+     display: flex;
+     justify-content:  center;
+     
+ }
+
+ button{
+     border: none;
+     width: 200px;
+     height: 50px;
+     border-radius: 25px;
+     cursor: pointer;
+     color: white;
+     font-style: bold;
+     font-size: 17px;
+     
+        
+ }
+
+ #botao-azul {
+     background: rgb(104, 70, 170);
+
+ }
+
+ #botao-verde {
+     background: rgb(76, 151, 133);
+
+ }
+
+ .texto-centralizado{
+     width: 100vw;
+     margin: 200px 0 60px 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .texto-centralizado h2 {
+     text-align: center;
+     font-size: 30px;
+     margin-bottom: 10px;
+     font-weight: bold;
+ }
+
+ .texto-centralizado p {
+     font-size: 20px;
+     width: 40vw;
+     text-align: center;
+     
+ }
+ #imagem-lista {
+     display: flex;
+
+ }
+
+ #imagem-computador {
+     width: 50vw;
+     
+ }
+
+ #lista-texto {
+     text-align: left;
+     margin-left: 70px;
+     margin-top: 60px;
+
+ }
+
+ #lista-texto h4 {
+     font-weight: bold;
+     font-size: 20px;
+     margin-bottom: 15px;
+ }
+
+ #lista-texto p {
+     font-size: 17px;
+     margin-bottom: 50px;
+ }
+
+ #imagem-centralizada {
+     width: 65vw;
+     margin-top: 70px;
+ }
+
+ #lista-imagem {
+    display: flex;
+    
+
+ }
+
+ .icones-texto {
+     display: flex;
+     flex-direction: column;
+     width: 30vw;
+
+ }
+
+ .icone {
+     width: 60px;
+ }
+
+ #icone-empresas{
+     display: flex;
+     justify-content: space-around;
+
+ }
+
+ footer {
+     background: rgb(221, 219, 219)
  }
