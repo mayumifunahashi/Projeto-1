@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: ;
+}
+header{
+    background-image: url(images/bg-header-desktop.png);
+    box-sizing: 400px;
+
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+    width: 100%;
+    height: 400px;
+
+ #logo-header {
+     height: 50px;
+
+ }
+
+ #titulo {  
+
+
+ }
