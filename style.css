@@ -1,161 +1,197 @@
-body{
+body {
     height: 100vh;
     width: 100vw;
-    
+
 }
-header{
+
+header {
     background-image: url(images/bg-header-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
-   flex-direction: column;
-    width: 100%;
+    flex-direction: column;
+    width: 100vw;
     height: 400px;
 }
 
 #header {
-    display:flex;
+    display: flex;
     margin-top: 250px;
     flex-direction: column;
 }
 
- #logo-header {
-     height: 60px;
-     width: 60px;
-     display: flex;
-     justify-items: center;
-     
-
-
- }
-
- #conteudo-centralizado {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     
-     
- }
-
- #titulo {  
-     font-size: 40px;
-     padding: 20px;
-     font-weight: bold;
-     
-     
- }
-
- conteudo-centralizdo p {
-     
- }
-
- .botoes {
-     width: 100vw;
-     padding-top: 20px;
-     display: flex;
-     justify-content:  center;
-     
- }
-
- button{
-     border: none;
-     width: 200px;
-     height: 50px;
-     border-radius: 25px;
-     cursor: pointer;
-     color: white;
-     font-style: bold;
-     font-size: 17px;
-     
-        
- }
-
- #botao-azul {
-     background: rgb(104, 70, 170);
-
- }
-
- #botao-verde {
-     background: rgb(76, 151, 133);
-
- }
-
- .texto-centralizado{
-     width: 100vw;
-     margin: 200px 0 60px 0;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- }
-
- .texto-centralizado h2 {
-     text-align: center;
-     font-size: 30px;
-     margin-bottom: 10px;
-     font-weight: bold;
- }
-
- .texto-centralizado p {
-     font-size: 20px;
-     width: 40vw;
-     text-align: center;
-     
- }
- #imagem-lista {
-     display: flex;
-
- }
-
- #imagem-computador {
-     width: 50vw;
-     
- }
-
- #lista-texto {
-     text-align: left;
-     margin-left: 70px;
-     margin-top: 60px;
-
- }
-
- #lista-texto h4 {
-     font-weight: bold;
-     font-size: 20px;
-     margin-bottom: 15px;
- }
-
- #lista-texto p {
-     font-size: 17px;
-     margin-bottom: 50px;
- }
-
- #imagem-centralizada {
-     width: 65vw;
-     margin-top: 70px;
- }
-
- #lista-imagem {
+#logo-header {
+    height: 60px;
+    width: 60px;
     display: flex;
+    justify-items: center;
+
+
+
+}
+
+#conteudo-centralizado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    color: hsl(210, 10%, 33%)
+}
+
+#conteudo-centralizdo p {
+    color: hsl(201, 11%, 66%);
+    font-size font-size: 18px;
+}
+
+.botoes {
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    font-style: bold;
+    font-size: 17px;
+    margin: 20px;
+}
+
+#botao-azul {
+    background: hsl(233, 100%, 69%);
+}
+
+#botao-verde {
+    background: hsl(171, 66%, 44%);
+}
+
+.texto-centralizado {
+    width: 100vw;
+    margin: 200px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-centralizado h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: hsl(210, 10%, 33%);
+}
+
+.texto-centralizado p {
+    font-size: 18px;
+    width: 55vw;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-top: 15px;
+
+}
+
+#imagem-lista {
+    display: flex;
+}
+
+#imagem-computador {
+    width: 50vw;
+}
+
+#lista-texto {
+    text-align: left;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#lista-texto h4 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: hsl(210, 10%, 33%);
+}
+
+#lista-texto p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: hsl(201, 11%, 66%);
+    margin-right: 250px;
+
+}
+
+#imagem-centralizada {
+    width: 65vw;
+    margin-top: 70px;
+}
+
+
+#lista-imagem ul {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+.icones-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+
+}
+
+.icone {
+    width: 70px;
+
+
+}
+
+.icones-texto h4 {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+
+.icones-texto p {
+    text-align: center;
+    font-size: 20px;
+    color: hsl(201, 11%, 66%);
+
+}
+
+#icone-empresas {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer {
+    background: rgb(221, 219, 219);
     
+}
 
- }
+#container-footer {
+    display: flex;
+width: 100%;
+}
 
- .icones-texto {
-     display: flex;
-     flex-direction: column;
-     width: 30vw;
-
- }
-
- .icone {
-     width: 60px;
- }
-
- #icone-empresas{
-     display: flex;
-     justify-content: space-around;
-
- }
-
- footer {
-     background: rgb(221, 219, 219)
- }
+#footer-container img {
+width: 20px;
+}
